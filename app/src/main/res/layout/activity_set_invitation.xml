@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetInvitation"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:text="Select the store you want to set the invitation for:"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/stores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="Select a store" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:text="Enter the invitation message:"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/invitationMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/setLocation"
+        android:layout_width="180dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:text="Set Location" />
+
+    <Button
+        android:id="@+id/DoneInvitation"
+        android:layout_width="180dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:width="30dp"
+        android:maxHeight="8dp"
+        android:text="Done" />
+
+</LinearLayout>

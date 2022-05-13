@@ -1,0 +1,21 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/myswitch"
+        android:actionLayout="@layout/switch_layout"
+        android:clickable="false"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:title="item1"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logout"
+        android:actionLayout="@layout/logout_layout"
+        android:clickable="true"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        app:showAsAction="always"
+        android:title="item2" />
+</menu>

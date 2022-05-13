@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Critique</string>
+
+    <!-- Buttons strings -->
+    <string name="add_geofences">Add geofences</string>
+    <string name="remove_geofences">Remove geofences</string>
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">
+        Click notification to return to app
+    </string>
+
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+    <string name="title_activity_search_reminder">SearchReminderActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_reminders">LocusReminder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_reminders">View Reminders</string>
+    <string name="create_reminders">Create Reminders</string>
+    <string name="edit_reminders">Edit Reminders</string>
+    <string name="help">Help</string>
+    <string name="faq1">HOW TO ADD A REMINDER?</string>
+    <string name="faq1_answer">Go to the plus icon placed at the bottom of the application. The application enables you to create
+    a note, Add a location and to add some notes.</string>
+    <string name="faq2">CAN I ACCESS THIS APPLICATION WITHOUT INTERNET CONNECTIVITY?</string>
+    <string name="faq2_answer">No, The application provides all the functionality when connected to wi-fi or cellular data.</string>
+    <string name="faq3">HOW WILL I RECEIVE A NOTIFICATION ?</string>
+    <string name="faq3_answer">The notification gets popped up when the user enters specified location.</string>
+    <string name="faq4">CAN I EDIT MY NOTE ?</string>
+    <string name="faq4_answers">Yes , Locus Reminder provides the functionality of editing the note by selecting it and clicking on the Edit Button.</string>
+    <string name="faq5">HOW DO I SEARCH MY NOTE ?</string>
+    <string name="faq5_answer">There is a SEARCH NOTE Option to perform the search .Users can carry out the search by entering the title created for the note.</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+</resources>
